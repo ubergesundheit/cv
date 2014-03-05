@@ -17,17 +17,30 @@ $iphone: new-breakpoint(max-width 380px 6)
 $phone: new-breakpoint(max-width 525px 6)
 $non-phone: new-breakpoint(min-width 526px 6)
 
-html, body
+$max-width: em(600)
+
+html, body, #map
   height: 100%
   font-size: 110%
 
-body
+#map
+  position: relative
+
+#body
+  position: absolute
+  top: 0
+  margin-left: auto
+  margin-right: auto
+  left: 0
+  right: 0
   +outer-container
   padding: 1rem
   font-size: 1rem
   color: $font-color
   background: $background-color
   font-family: 'Alegreya Sans', sans-serif
+  overflow-y:scroll
+  overflow-x:hidden
 
 h2, h3
   color: $accent-color
@@ -193,7 +206,7 @@ a
         position: absolute
         left: 0
         width: 0
-        border-left: 1px solid $accent-color
+        //border-left: 1px solid $accent-color
         transition: all .2s ease-out
         top: 0
         height: 100%

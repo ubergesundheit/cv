@@ -11,39 +11,40 @@
     %meta{:name => "viewport", :content => "width=device-width; initial-scale=1.0; maximum-scale=1.0;"}
     %link{rel: "icon", href: "favicon.png", type: "image/png"}
     = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700', media: nil
-    -# stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Exo+2:200,400,700,400italic', media: nil
     = stylesheet_link_tag "all", media: nil
     = javascript_include_tag  "all"
   %body{:class => page_classes}
-    %section
-      #header
-        %h1#header__name Gerald Pape
-        %h2#header__profession Geoinformatics student.
-      #contact
-        %table
-          %tr.web
-            %td
-              %i.fa.fa-globe
-            %td
-              = link_to 'http://geraldpape.io', 'http://geraldpape.io'
-          %tr.mail
-            %td
-              %i.fa.fa-envelope
-            %td
-              %span.obfusmail oi.epapdlareg@liam
-          %tr.phone
-            %td
-              %i.fa.fa-github
-            %td
-              = link_to 'ubergesundheit', 'https://github.com/ubergesundheit'
-          %tr.twitter
-            %td
-              %i.fa.fa-twitter
-            %td
-              = link_to "@ubergesundheit", "http://twitter.com/ubergesundheit"
+    #map
+    #body
+      %section
+        #header
+          %h1#header__name Gerald Pape
+          %h2#header__profession Geoinformatics student.
+        #contact
+          %table
+            %tr.web
+              %td
+                %i.fa.fa-globe
+              %td
+                = link_to 'http://geraldpape.io', 'http://geraldpape.io'
+            %tr.mail
+              %td
+                %i.fa.fa-envelope
+              %td
+                %span.obfusmail oi.epapdlareg@liam
+            %tr.phone
+              %td
+                %i.fa.fa-github
+              %td
+                = link_to 'ubergesundheit', 'https://github.com/ubergesundheit'
+            %tr.twitter
+              %td
+                %i.fa.fa-twitter
+              %td
+                = link_to "@ubergesundheit", "http://twitter.com/ubergesundheit"
 
-    = yield
-    %section#footer
-      This page is heavily inspired by #{link_to 'Daniel Kirschs CV', 'http://danielkirs.ch'} and built using #{link_to 'Middleman', 'http://middlemanapp.com/'}, #{link_to 'Bourbon NEAT', 'http://neat.bourbon.io/'} and #{link_to 'Font Awesome', 'http://fortawesome.github.io/Font-Awesome/'}. It is hosted on
-      %i.fa.fa-github
-      pages. The color scheme is derived from #{link_to 'solarized', 'http://ethanschoonover.com/solarized'}.
+      = yield
+      %section#footer
+        This page is heavily inspired by #{link_to 'Daniel Kirschs CV', 'http://danielkirs.ch'} and built using #{link_to 'Middleman', 'http://middlemanapp.com/'}, #{link_to 'Bourbon NEAT', 'http://neat.bourbon.io/'} and #{link_to 'Font Awesome', 'http://fortawesome.github.io/Font-Awesome/'}. It is hosted on
+        %i.fa.fa-github
+        pages. The color scheme is derived from #{link_to 'solarized', 'http://ethanschoonover.com/solarized'}.
