@@ -1,3 +1,7 @@
+#= require modernizr/modernizr
+#= require leaflet/dist/leaflet-src
+#= require_self
+
 document.addEventListener "DOMContentLoaded", ->
   links = document.getElementsByClassName('obfusmail')
   for link in links

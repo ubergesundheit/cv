@@ -45,6 +45,8 @@
 #   end
 # end
 
+activate :directory_indexes
+
 activate :livereload
 
 set :css_dir, 'stylesheets'
