@@ -14,6 +14,33 @@
     = stylesheet_link_tag "all", media: nil
     = javascript_include_tag  "all"
   %body{:class => page_classes}
+    %section
+      #header
+        %h1#header__name Gerald Pape
+        %h2#header__profession Student of Geoinformatics.
+      #contact
+        %table
+          %tr.web
+            %td
+              %i.fa.fa-globe
+            %td
+              = link_to 'http://danielkirs.ch', 'http://danielkirs.ch'
+          %tr.mail
+            %td
+              %i.fa.fa-envelope
+            %td
+              = link_to 'mail@danielkirs.ch', 'mailto:mail@danielkirs.ch'
+          %tr.phone
+            %td
+              %i.fa.fa-mobile
+            %td
+              +49 1511 5729370
+          %tr.twitter
+            %td
+              %i.fa.fa-twitter
+            %td
+              = link_to "@kirel", "http://twitter.com/kirel"
+
     = yield
     %section#footer
       This page is heavily inspired by #{link_to 'Daniel Kirschs CV', 'http://danielkirs.ch'} and built using #{link_to 'Middleman', 'http://middlemanapp.com/'}, #{link_to 'Bourbon NEAT', 'http://neat.bourbon.io/'} and #{link_to 'Font Awesome', 'http://fortawesome.github.io/Font-Awesome/'}. It is hosted on
