@@ -4,12 +4,12 @@
 @import "font-awesome"
 @import "leaflet/dist/leaflet"
 
-$background-color: rgb(252,245,228)
-$font-color: rgb(11,42,53)
-$accent-color: rgb(191,88,44)
-$unobtrusive-color: rgb(91,109,116)
+$background-color: #666
+$font-color: #ccc
+$accent-color: #fc0
+$unobtrusive-color: #eee
 $hint-color: $accent-color
-$link-color: rgb(59,142,207)
+$link-color: #F1702B
 $link-visited-color: $link-color
 
 $mobile: new-breakpoint(max-width 700px 6)
@@ -44,6 +44,9 @@ html, body, #map
   background: $background-color
   font-family: 'Alegreya Sans', sans-serif
 
+h1
+  color: $accent-color
+
 h2, h3
   color: $accent-color
 
@@ -61,32 +64,14 @@ a
   font-weight: 400
   color: $link-color
   text-decoration: none
-  position: relative
+  transition: color .3s $ease-out-quad
 
   &:visited
     color: $link-visited-color
-  &::before
-    content: ''
-    position: absolute
-    bottom: 0
-    width: 0
-    left: 50%
-    border-bottom: 1px solid $link-color
-    transition: all .2s ease-in-out
-  &:hover::before
-    width: 100%
-    left: 0
+  &:hover
+    color: #0009B2
+    transition: color .3s $ease-in-quad
 
-  // external link indicator // I don't like it
-  // &[href^="http"]:after
-  //   content: "\f08e"
-  //   font-family: FontAwesome
-  //   font-weight: normal
-  //   font-style: normal
-  //   font-size: 60%
-  //   display: inline-block
-  //   text-decoration: none
-  //   padding-left: 3px
 
 %unobtrusive-text
   font-weight: 300
