@@ -78,8 +78,20 @@ a
   font-weight: 300
   color: $unobtrusive-color
 
+
+section
+  h4
+    color: $font-color
+    margin: .5rem 0 0 0
+  ul
+    margin: .5rem 0 0 0
+    li
+      h5
+        margin: 0
+
+
 // Components
-#abstract, #education, #experience, #voluntary-experience, #interests, #references, #footer
+#abstract, #education, #experience, #voluntary-experience, #interests, #references, #footer, #achievements
   +span-columns(12)
 
 #header
@@ -167,10 +179,10 @@ a
   .activity, .employment
     .employment-details, .activity-details
       @extend %unobtrusive-text
-      h4
+      //h4
         color: $font-color
         margin: .5rem 0 0 0
-      ul
+      //ul
         margin: .5rem 0 0 0
 
 #references
