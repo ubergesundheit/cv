@@ -192,18 +192,7 @@ section
 
 #interests
   ul
-    li
-      +span-columns(6)
-      +media($mobile)
-        +span-columns(6)
-      +omega(2n)
-      list-style: circle
-      &:before
-        content: '\25CF'
-        position: relative
-        left: -1rem
-  p
-    +span-columns(12)
+    @include columns(2)
 
 #footer
   border-top: 1px solid $font-color
