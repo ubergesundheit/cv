@@ -13,7 +13,7 @@ $link-color: #F1702B
 $link-visited-color: $link-color
 
 $mobile: new-breakpoint(max-width 700px 6)
-$iphone: new-breakpoint(max-width 380px 6)
+$iphone: new-breakpoint(max-width 320px 6)
 $phone: new-breakpoint(max-width 525px 6)
 $non-phone: new-breakpoint(min-width 526px 6)
 
@@ -34,8 +34,6 @@ html, body, #map
 #body
   position: absolute
   top: 0
-  margin-left: auto
-  margin-right: auto
   left: 0
   right: 0
   +outer-container
@@ -179,11 +177,6 @@ section
   .activity, .employment
     .employment-details, .activity-details
       @extend %unobtrusive-text
-      //h4
-        color: $font-color
-        margin: .5rem 0 0 0
-      //ul
-        margin: .5rem 0 0 0
 
 #references
   dd
@@ -206,6 +199,7 @@ section
 @media print
   html, body
     font-size: 86%
+    color: black
 
   #abstract, #education, #experience, #voluntary-experience, #interests, #references, #footer
     page-break-inside: avoid
