@@ -1,0 +1,21 @@
+# Site settings
+title: Gerald Pape - Personal Site
+tag_text: Gerald Pape
+description: The personal web page of Gerald Pape.
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+# Enable when using kramdown
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+exclude: ["README.md", "docker-compose.yml"]
+
