@@ -3,7 +3,6 @@
 # only Main files contain this front matter, not partials.
 ---
 @import "normalize";
-@import url(//fonts.googleapis.com/css?family=Montserrat:700);
 @import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 @font-face {
@@ -36,25 +35,14 @@ $width: 40rem;
 }
 
 html {
-  font: 16px/1.5 Inconsolata, sans-serif;
-}
-
-@media (min-width: $width) {
-  html {
-    font-size: 20px;
-  }
+  font: 20px/1.5 Inconsolata, monospace;
 }
 
 body {
   margin: 1rem 0 5rem;
+  margin-top: 2rem;
   color: $font-color;
   background-color: $background-color;
-}
-
-@media (min-width: $width) {
-  body {
-    margin-top: 2rem;
-  }
 }
 
 a {
@@ -75,24 +63,9 @@ a:hover {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: Montserrat, sans-serif;
-  margin: 0 0 0.5rem -0.1rem /* align left edge */;
-  line-height: 1;
-  color: $accent-color;
-  text-rendering: optimizeLegibility;
-}
-
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-@media (min-width: $width) {
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-  }
+  font-size: 3rem;
+  margin-bottom: 3rem;
 }
 
 h1 a {
@@ -100,17 +73,9 @@ h1 a {
 }
 
 h2 {
-  margin-top: 2rem;
-  font-size: 1.25rem;
-  margin-bottom: 0.75rem;
-}
-
-@media (min-width: $width) {
-  h2 {
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 h3, h4, h5, h6 {
@@ -130,9 +95,9 @@ ul, ol {
 
 dd {
   margin-left: 1.5rem;
+  margin-bottom: .5rem;
   color:  #ccc;
 }
-
 
 dt::before {
   content: "\2192";
@@ -251,4 +216,17 @@ pre > code {
 
 .introduction {
   text-align: justify;
+  margin: 1.5rem 0
+}
+
+p {
+  margin-bottom: 0
+}
+
+em::before {
+  content: "\00BB";
+}
+
+em::after {
+  content: "\00AB";
 }
