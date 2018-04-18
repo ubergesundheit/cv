@@ -11,7 +11,7 @@ layout: default
 <dl>
   <dt>May 2018 &ndash; Now</dt>
   <dd>Software Engineer at <a href="https://www.foodtracks.de/" target="_blank">FoodTracks</a>
-  <p>Technologies: Ruby on Rails, React, Docker</p>
+  <p>Technologies: Ruby on Rails, Node.js, React, Docker</p>
   </dd>
 
   <dt>June 2016 &ndash; April 2018</dt>
