@@ -10,8 +10,8 @@ layout: default
 ## Work
 <dl>
   <dt>May 2018 &ndash; Now</dt>
-  <dd>Software Engineer at <a href="https://www.foodtracks.de/" target="_blank">FoodTracks</a>
-  <p>Technologies: Ruby on Rails, Node.js, React, Docker</p>
+  <dd>Full Stack software engineer at <a href="https://www.foodtracks.de/" target="_blank">FoodTracks</a>. Development and maintenance of customer facing software for order optimization &amp; business data analysis. Maintenance and deployment of infrastructure and CI/CD.
+  <p>Technologies: React, Python, Docker, Node.js, Ruby on Rails, Go, Ansible, Terraform, GitLab</p>
   </dd>
 
   <dt>June 2016 &ndash; April 2018</dt>
