@@ -227,7 +227,7 @@ pre > code {
 
 .introduction {
   text-align: justify;
-  margin: 1.5rem 0
+  margin: 0.5rem 0;
 }
 
 p {
@@ -240,4 +240,26 @@ em::before {
 
 em::after {
   content: "\00AB";
+}
+
+.navbox {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  flex-wrap: wrap;
+}
+
+.navbox .navlink {
+  margin: 0 0.5rem;
+  color: $font-color;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  text-decoration-style: dotted;
+}
+
+.navlink:hover {
+ color:$link-color;
+  text-decoration-color: $link-color;
+ transition:color 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53), text-decoration-color 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }

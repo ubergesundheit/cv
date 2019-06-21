@@ -4,6 +4,12 @@ layout: default
 
 <img src="images/gerald_339.jpg" alt="Image of Gerald Pape" id="img_gerald" />
 
+<p class="navbox">
+  <!-- <a class="navlink" href="#projects">Projects</a> -->
+  <a class="navlink" href="#work">Work</a>
+  <a class="navlink" href="#education">Education</a>
+</p>
+
 <p class="introduction">Hi, my name is Gerald and I am a software developer from Münster. On the internet, I usually go by <em>ubergesundheit</em>. For fun and recreation, I like to try out new programming languages and technologies, tinker with programmable gadgets and embedded systems, cook and eat tasty recipies and read or watch science-fiction. In <a href="http://codeformuenster.org/" target="_blank">Münsters Code for Germany</a> division I voluntarily create civic tech with open data. I'm really interested in technologies and topics like Linux, containers, container orchestration with Kubernetes, decentralization and self-hosting. My secret weakness is owning and trying out mechanical keyboards.
 <br />You can find me on <a href="https://github.com/ubergesundheit" target="_blank" class="icon-github">GitHub</a>, <a href="https://twitter.com/ubergesundheit" target="_blank" class="icon-twitter">Twitter</a> and <a href="https://keybase.io/geraldpape" target="_blank" class="icon-key">Keybase</a>. You can also write me an <a data-href="oi.epapdlareg@liam:otliam" class="obfusmail icon-envelope" rel="nofollow">email</a>.</p>
 
