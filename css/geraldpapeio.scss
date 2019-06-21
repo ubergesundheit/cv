@@ -27,11 +27,14 @@ $link-highlight-color: #fef9f5;
 
 $width: 70ch;
 
-
 #img_gerald {
   border-radius: 50%;
   max-width: 75%;
-  max-height: 40vh;
+  max-height: 30vh;
+  float: left;
+  margin-right: 2rem;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
 }
 
 html {
@@ -42,6 +45,15 @@ body {
   margin: 2rem 0 5rem;
   color: $font-color;
   background-color: $background-color;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0 0 5rem;
+  }
+  #img_gerald {
+    max-height: 25vh;
+  }
 }
 
 a {
