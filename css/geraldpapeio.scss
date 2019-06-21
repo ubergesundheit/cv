@@ -3,7 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 @import "normalize";
-@import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url("//fonts.googleapis.com/css?family=Inconsolata:400&display=swap");
 
 @font-face {
     font-family: 'icomoon';
@@ -25,7 +25,7 @@ $link-color: #F1A92B;
 $link-visited-color: $link-color;
 $link-highlight-color: #fef9f5;
 
-$width: 40rem;
+$width: 70ch;
 
 
 #img_gerald {
@@ -39,8 +39,7 @@ html {
 }
 
 body {
-  margin: 1rem 0 5rem;
-  margin-top: 2rem;
+  margin: 2rem 0 5rem;
   color: $font-color;
   background-color: $background-color;
 }
@@ -50,7 +49,7 @@ a {
   font-weight: 400;
   color: $link-color;
   text-decoration: none;
-  transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  transition: color 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
 }
 
 a:visited {
@@ -59,7 +58,7 @@ a:visited {
 
 a:hover {
   color: $link-highlight-color;
-  transition:color 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+  transition:color 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
 }
 
 
@@ -179,8 +178,8 @@ pre > code {
 
 .container {
   max-width: $width;
-  margin: 0 auto;
-  padding: 0 1rem;
+  margin: auto;
+  padding: 2ch;
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
