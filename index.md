@@ -4,6 +4,8 @@ layout: default
 
 <img src="images/gerald_339.jpg" alt="Image of Gerald Pape" id="img_gerald" />
 
+<p class="navbox my-name">Gerald Pape</p>
+
 <p class="navbox">
   <!-- <a class="navlink" href="#projects">Projects</a> -->
   <a class="navlink" href="#work">Work</a>

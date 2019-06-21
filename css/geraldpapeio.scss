@@ -2,18 +2,19 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
 ---
+
 @import "normalize";
-@import url("//fonts.googleapis.com/css?family=Inconsolata:400&display=swap");
+@import url("//fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap");
 
 @font-face {
-    font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?f66vd2');
-    src:    url('fonts/icomoon.eot?f66vd2#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?f66vd2') format('truetype'),
-        url('fonts/icomoon.woff?f66vd2') format('woff'),
-        url('fonts/icomoon.svg?f66vd2#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?f66vd2");
+  src: url("fonts/icomoon.eot?f66vd2#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?f66vd2") format("truetype"),
+    url("fonts/icomoon.woff?f66vd2") format("woff"),
+    url("fonts/icomoon.svg?f66vd2#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 $background-color: #656565;
@@ -21,7 +22,7 @@ $font-color: #eee;
 $accent-color: #fc0;
 $unobtrusive-color: #ccc;
 //$link-color: #F1702B;
-$link-color: #F1A92B;
+$link-color: #f1a92b;
 $link-visited-color: $link-color;
 $link-highlight-color: #fef9f5;
 
@@ -30,7 +31,7 @@ $width: 70ch;
 #img_gerald {
   border-radius: 50%;
   max-width: 75%;
-  max-height: 30vh;
+  max-height: 40vh;
   float: left;
   margin-right: 2rem;
   -webkit-shape-outside: circle();
@@ -61,7 +62,7 @@ a {
   font-weight: 400;
   color: $link-color;
   text-decoration: none;
-  transition: color 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  transition: color 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 a:visited {
@@ -70,9 +71,8 @@ a:visited {
 
 a:hover {
   color: $link-highlight-color;
-  transition:color 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+  transition: color 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
-
 
 h1 {
   font-size: 3rem;
@@ -89,25 +89,35 @@ h2 {
   margin-bottom: 1rem;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   margin-top: 1.5rem;
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-p, ul, ol, dl, table, pre, blockquote {
+p,
+ul,
+ol,
+dl,
+table,
+pre,
+blockquote {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 1.5rem;
 }
 
 dd {
   margin-left: 1.5rem;
-  margin-bottom: .5rem;
-  color:  #ccc;
+  margin-bottom: 0.5rem;
+  color: #ccc;
 }
 
 dt::before {
@@ -124,8 +134,8 @@ dt {
 blockquote {
   margin-left: 0;
   margin-right: 0;
-  padding: .5rem 1rem;
-  border-left: .25rem solid #ccc;
+  padding: 0.5rem 1rem;
+  border-left: 0.25rem solid #ccc;
   color: #666;
 }
 
@@ -141,7 +151,8 @@ hr {
   top: -1px;
 }
 
-.container img, .container iframe {
+.container img,
+.container iframe {
   max-width: 100%;
 }
 
@@ -156,8 +167,9 @@ table {
   border-collapse: collapse;
 }
 
-td, th {
-  padding: .25rem .5rem;
+td,
+th {
+  padding: 0.25rem 0.5rem;
   border: 1px solid #e5e5e5;
 }
 
@@ -166,12 +178,13 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-pre, code {
+pre,
+code {
   font-family: inherit;
 }
 
 pre {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 0.75rem;
   line-height: 1.5;
   border: 1px solid #e6e1dc;
@@ -179,7 +192,7 @@ pre {
 }
 
 code {
-  padding: .1rem .25rem;
+  padding: 0.1rem 0.25rem;
   background-color: #f4f4f4;
 }
 
@@ -194,9 +207,10 @@ pre > code {
   padding: 2ch;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -206,23 +220,22 @@ pre > code {
   font-size: 75%;
   margin-right: 4px;
 
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-envelope:before {
-    content: " \e900";
+  content: " \e900";
 }
 .icon-twitter:before {
-    content: " \ea96";
+  content: " \ea96";
 }
 .icon-github:before {
-    content: "\eab0";
+  content: "\eab0";
 }
 .icon-key:before {
-    content: "\e98d";
+  content: "\e98d";
 }
 
 .introduction {
@@ -231,7 +244,7 @@ pre > code {
 }
 
 p {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
 em::before {
@@ -243,10 +256,9 @@ em::after {
 }
 
 .navbox {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: space-evenly;
-
   flex-wrap: wrap;
 }
 
@@ -259,7 +271,20 @@ em::after {
 }
 
 .navlink:hover {
- color:$link-color;
+  color: $link-color;
   text-decoration-color: $link-color;
- transition:color 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53), text-decoration-color 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: color 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53),
+    text-decoration-color 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.my-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: $link-color;
+}
+
+@media (max-width: 450px) {
+  .my-name {
+    font-size: 1.5rem;
+  }
 }
