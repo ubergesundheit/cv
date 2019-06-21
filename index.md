@@ -19,34 +19,34 @@ layout: default
 <dl>
   <dt>May 2018 &ndash; Now</dt>
   <dd>Full Stack software engineer at <a href="https://www.foodtracks.de/" target="_blank">FoodTracks</a>. Development and maintenance of customer facing software for order optimization &amp; business data analysis. Maintenance and deployment of infrastructure and CI/CD.
-  <p>Technologies: React, Python, Docker, Node.js, Ruby on Rails, Go, Ansible, Terraform, GitLab</p>
+  <p class="technology-list">Technologies: React, Python, Docker, Node.js, Ruby on Rails, Go, Ansible, Terraform, GitLab</p>
   </dd>
 
   <dt>June 2016 &ndash; April 2018</dt>
-  <dd>Full stack developer in the <a href="https://sensebox.de/" target="_blank">senseBox</a> project at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>: Development and maintenance of <a href="https://opensensemap.org/" target="_blank">openSenseMap</a>, an open source citizen science open data platform. <p>Technologies: Node.js, MongoDB, Docker, AWS, Ansible, Terraform, Arduino</p>
+  <dd>Full stack developer in the <a href="https://sensebox.de/" target="_blank">senseBox</a> project at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>: Development and maintenance of <a href="https://opensensemap.org/" target="_blank">openSenseMap</a>, an open source citizen science open data platform. <p class="technology-list">Technologies: Node.js, MongoDB, Docker, AWS, Ansible, Terraform, Arduino</p>
   </dd>
 
   <dt>April 2014 &ndash; May 2016</dt>
-  <dd>Software Engineer at <a href="https://www.conterra.de/" target="_blank">con terra GmbH</a>: Development of a winter service management platform frontend and a data portal frontend for environmental data. <p>Technologies: con terra map.apps, ArcGIS API for JavaScript, ArcGIS Server</p>
+  <dd>Software Engineer at <a href="https://www.conterra.de/" target="_blank">con terra GmbH</a>: Development of a winter service management platform frontend and a data portal frontend for environmental data. <p class="technology-list">Technologies: con terra map.apps, ArcGIS API for JavaScript, ArcGIS Server</p>
   </dd>
 
   <dt>October 2013 &ndash; Februray 2014</dt>
-  <dd>Intern at <a href="https://www.zweitag.de/en/" target="_blank">Zweitag GmbH</a>: Development of a backend for a document orgaization software. <p>Technologies: Ruby on Rails, Elasticsearch</p>
+  <dd>Intern at <a href="https://www.zweitag.de/en/" target="_blank">Zweitag GmbH</a>: Development of a backend for a document orgaization software. <p class="technology-list">Technologies: Ruby on Rails, Elasticsearch</p>
   </dd>
 
   <dt>June 2011 &ndash; August 2013</dt>
-  <dd>Student worker at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>: Support, administration and maintenance for the institutes IT. Development of internal management tools. <p>Technologies: PHP, MySQL</p>
+  <dd>Student worker at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>: Support, administration and maintenance for the institutes IT. Development of internal management tools. <p class="technology-list">Technologies: PHP, MySQL</p>
   </dd>
 </dl>
 
 ## Education
 <dl>
   <dt>Master of Science Geoinformatics</dt>
-  <dd>Completed at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>. Thesis: <em>Supporting Public Deliberation Through Spatially Enhanced Dialogs</em><p>Technologies: Ruby on Rails, AngularJS, Docker</p>
+  <dd>Completed at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>. Thesis: <em>Supporting Public Deliberation Through Spatially Enhanced Dialogs</em><p class="technology-list">Technologies: Ruby on Rails, AngularJS, Docker</p> <a href="https://github.com/ubergesundheit/dialogmap" target="_blank">Code</a>
   </dd>
 
   <dt>Bachelor of Science Geoinformatics</dt>
-  <dd>Completed at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>. Thesis: <em>Arm gesture interaction with virtual globes: Implementation and evaluation</em><p>Technologies: Kinect, NASA World Wind</p>
+  <dd>Completed at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>. Thesis: <em>Arm gesture interaction with virtual globes: Implementation and evaluation</em><p class="technology-list">Technologies: Kinect, NASA World Wind</p> <a href="https://github.com/ubergesundheit/triangle-of-sustainability" target="_blank">Code</a>
   </dd>
 </dl>
 
