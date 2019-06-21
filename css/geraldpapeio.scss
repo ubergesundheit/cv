@@ -17,8 +17,8 @@
   font-style: normal;
 }
 
-$background-color: #656565;
-$font-color: #eee;
+$background-color: #5d5d5d;
+$font-color: #fafafa;
 $accent-color: #fc0;
 $unobtrusive-color: #ccc;
 //$link-color: #F1702B;
@@ -292,4 +292,46 @@ em::after {
 .technology-list {
   font-size: 15px;
   line-height: 30px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30ch;
+  margin: 0.2rem;
+  padding: 0.8rem;
+  background-color: lighten($background-color, 4);
+  border-radius: 3px;
+}
+
+@media (max-width: 680px) {
+  .project {
+    flex: 0 0 100%;
+  }
+}
+
+.project h4 {
+  margin: 0 0 0.2rem 0;
+}
+
+.project .technology-list {
+  line-height: unset;
+  margin-top: auto;
+}
+
+.project .project-description {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  margin-bottom: 0.5rem;
+}
+
+.project .project-link {
+  align-self: flex-end;
 }

@@ -7,13 +7,28 @@ layout: default
 <p class="navbox my-name">Gerald Pape</p>
 
 <p class="navbox">
-  <!-- <a class="navlink" href="#projects">Projects</a> -->
+  <a class="navlink" href="#projects">Projects</a>
   <a class="navlink" href="#work">Work</a>
   <a class="navlink" href="#education">Education</a>
 </p>
 
 <p class="introduction">Hi, my name is Gerald and I am a software developer from Münster. On the internet, I usually go by <em>ubergesundheit</em>. For fun and recreation, I like to try out new programming languages and technologies, tinker with programmable gadgets and embedded systems, cook and eat tasty recipies and read or watch science-fiction. In <a href="http://codeformuenster.org/" target="_blank">Münsters Code for Germany</a> division I voluntarily create civic tech with open data. I'm really interested in technologies and topics like Linux, containers, container orchestration with Kubernetes, decentralization and self-hosting. My secret weakness is owning and trying out mechanical keyboards.
 <br />You can find me on <a href="https://github.com/ubergesundheit" target="_blank" class="icon-github">GitHub</a>, <a href="https://twitter.com/ubergesundheit" target="_blank" class="icon-twitter">Twitter</a> and <a href="https://keybase.io/geraldpape" target="_blank" class="icon-key">Keybase</a>. You can also write me an <a data-href="oi.epapdlareg@liam:otliam" class="obfusmail icon-envelope" rel="nofollow">email</a>.</p>
+
+## Projects
+
+{% include projects.html %}
+
+### Other notable projects
+
+- <a href="https://github.com/ubergesundheit/Leaflet.EdgeMarker" target="_blank">Leaflet.EdgeMarker</a> - A <a href="https://leafletjs.com/" target="_blank">Leaflet</a> plugin to indicate GeoFeatures outside of the view <span class="technology-list">[JavaScript]</span>
+- <a href="https://github.com/lunemec/nanny" target="_blank">Nanny</a> - Monitoring of services based on periodic notifications to a HTTP endpoint. Contributed Slack notifier and other API improvements. <span class="technology-list">[Go]</span>
+- <a href="https://github.com/containrrr/watchtower" target="_blank">Watchtower</a> - Periodically pull container images and restart if required. Contributed Slack notifier <span class="technology-list">[Go]</span>
+- <a href="https://github.com/sensebox/senseboxpi" target="_blank">senseBoxPi</a> - Read sensor values and transfer to openSenseMap using linux kernel builtins <span class="technology-list">[Go, Linux]</span>
+- <a href="https://github.com/ubergesundheit/dialogmap" target="_blank">DialogMap</a> - Spatially enhanced dialogues. Software developed for my masters thesis <span class="technology-list">[Ruby on Rails, Angular 1.2, Docker]</span>
+- <a href="https://github.com/codeformuenster/trinkwasser" target="_blank">Trinkwasser in Münster</a> - Tap water contents visualization. Redeloyment from Code for Heilbronn. <span class="technology-list">[JavaScript]</span>
+- <a href="https://github.com/ubergesundheit/letter-drag" target="_blank">Letter Drag</a> - Soure code to an anagram game for Android phones <span class="technology-list">[Java, Android]</span>
+- <a href="https://github.com/ubergesundheit/geojsontools" target="_blank">geojsontools</a> - Utility to convert GeoJSON points to a GeoJSON line. <span class="technology-list">[JavaScript]</span>
 
 ## Work
 <dl>
@@ -46,7 +61,7 @@ layout: default
   </dd>
 
   <dt>Bachelor of Science Geoinformatics</dt>
-  <dd>Completed at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>. Thesis: <em>Arm gesture interaction with virtual globes: Implementation and evaluation</em><p class="technology-list">Technologies: Kinect, NASA World Wind</p> <a href="https://github.com/ubergesundheit/triangle-of-sustainability" target="_blank">Code</a>
+  <dd>Completed at <a href="http://www.uni-muenster.de/Geoinformatics/en/" target="_blank">Institute for Geoinformatics</a>. Thesis: <em>Arm gesture interaction with virtual globes: Implementation and evaluation</em><p class="technology-list">Technologies: Java, Kinect, NASA World Wind</p> <a href="https://github.com/ubergesundheit/triangle-of-sustainability" target="_blank">Code</a>
   </dd>
 </dl>
 
