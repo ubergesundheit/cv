@@ -21,13 +21,13 @@ layout: default
 
 ### Other notable projects
 
-- <a href="https://github.com/ubergesundheit/Leaflet.EdgeMarker" target="_blank">Leaflet.EdgeMarker</a> - A <a href="https://leafletjs.com/" target="_blank">Leaflet</a> plugin to indicate GeoFeatures outside of the view <span class="technology-list">[JavaScript]</span>
+- <a href="https://github.com/ubergesundheit/Leaflet.EdgeMarker" target="_blank">Leaflet.EdgeMarker</a> - A <a href="https://leafletjs.com/" target="_blank">Leaflet</a> plugin to indicate GeoFeatures outside of the map view. <span class="technology-list">[JavaScript]</span>
 - <a href="https://github.com/lunemec/nanny" target="_blank">Nanny</a> - Monitoring of services based on periodic notifications to a HTTP endpoint. Contributed Slack notifier and other API improvements. <span class="technology-list">[Go]</span>
-- <a href="https://github.com/containrrr/watchtower" target="_blank">Watchtower</a> - Periodically pull container images and restart if required. Contributed Slack notifier <span class="technology-list">[Go]</span>
-- <a href="https://github.com/sensebox/senseboxpi" target="_blank">senseBoxPi</a> - Read sensor values and transfer to openSenseMap using linux kernel builtins <span class="technology-list">[Go, Linux]</span>
-- <a href="https://github.com/ubergesundheit/dialogmap" target="_blank">DialogMap</a> - Spatially enhanced dialogues. Software developed for my masters thesis <span class="technology-list">[Ruby on Rails, Angular 1.2, Docker]</span>
+- <a href="https://github.com/containrrr/watchtower" target="_blank">Watchtower</a> - Periodically pull container images and restart if required. Contributed Slack notifier. <span class="technology-list">[Go]</span>
+- <a href="https://github.com/sensebox/senseboxpi" target="_blank">senseBoxPi</a> - Read sensor values and transfer to openSenseMap using linux kernel builtins on the Raspberry Pi. <span class="technology-list">[Go, Linux, Raspberry Pi]</span>
+- <a href="https://github.com/ubergesundheit/dialogmap" target="_blank">DialogMap</a> - Spatially enhanced dialogues. Software developed for my masters thesis. <span class="technology-list">[Ruby on Rails, Angular 1.2, Docker]</span>
 - <a href="https://github.com/codeformuenster/trinkwasser" target="_blank">Trinkwasser in Münster</a> - Tap water contents visualization. Redeloyment from Code for Heilbronn. <span class="technology-list">[JavaScript]</span>
-- <a href="https://github.com/ubergesundheit/letter-drag" target="_blank">Letter Drag</a> - Soure code to an anagram game for Android phones <span class="technology-list">[Java, Android]</span>
+- <a href="https://github.com/ubergesundheit/letter-drag" target="_blank">Letter Drag</a> - Soure code to an anagram game for Android phones. <span class="technology-list">[Java, Android]</span>
 - <a href="https://github.com/ubergesundheit/geojsontools" target="_blank">geojsontools</a> - Utility to convert GeoJSON points to a GeoJSON line. <span class="technology-list">[JavaScript]</span>
 
 ## Work
