@@ -192,6 +192,22 @@
           51.9604
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Digital Hub münsterLAND",
+        "address": "Hafenweg 16",
+        "plz": 48145,
+        "url": "https://www.digitalhub.ms/angebote/coworking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6404,
+          51.9522
+        ]
+      }
     }
   ]
 }
