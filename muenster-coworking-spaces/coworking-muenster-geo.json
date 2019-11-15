@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "volt.works",
+        "address": "Bült 13",
+        "plz": 48143,
+        "url": "https://volt.works/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6311,
+          51.9641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "WATERMARK",
+        "address": "Hafenweg 22",
+        "plz": 48155,
+        "url": "http://www.watermark-muenster.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6414,
+          51.9522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harbour Workspace",
+        "address": "Am Mittelhafen 10",
+        "plz": 48155,
+        "url": "https://www.harbourworkspace.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6401,
+          51.9512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HANSA COWORKING",
+        "address": "Dortmunder Str. 25",
+        "plz": 48155,
+        "url": "https://www.hansa-coworking.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6418,
+          51.9541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "HANSA COWORKING",
+        "address": "Friedrich Ebert Straße 132",
+        "plz": 48155,
+        "url": "https://www.hansa-coworking.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6299,
+          51.9453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "pi28",
+        "address": "Drubbel 17-18",
+        "plz": 48143,
+        "url": "https://www.pi28.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6283,
+          51.9634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "kollektiv36",
+        "address": "Wolbecker Straße 36 (Hinterhaus)",
+        "plz": 48155,
+        "url": "http://www.kollektiv36.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6396,
+          51.9575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harbourside",
+        "address": "Hafenweg 26a",
+        "plz": 48155,
+        "url": "https://harbourside.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6433,
+          51.952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harbourside",
+        "address": "Hafenweg 11a",
+        "plz": 48155,
+        "url": "https://harbourside.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.641,
+          51.95254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "KREATIVCAMPUS MÜNSTER",
+        "address": "Dieckstraße 71-75",
+        "plz": 48145,
+        "url": "http://www.kreativcampus-muenster.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6556,
+          51.975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "georg design Netzwerkbüro",
+        "address": "Lippstädter Straße 46",
+        "plz": 48155,
+        "url": "https://www.georg-design.de/coworking/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6358,
+          51.9473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haus Brink",
+        "address": "Havixbecker Str. 70",
+        "plz": 48161,
+        "url": "https://hausbrink.com/co-working/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5322,
+          51.9604
+        ]
+      }
+    }
+  ]
+}
