@@ -30,7 +30,7 @@ body {
 
 ## Coworking Spaces in Münster
 
-Stand November 2019, Download: [als csv](muenster-coworking-spaces.csv), [als geojson](coworking-muenster-geo.json)
+Stand November 2019, Download: [als csv](muenster-coworking-spaces.csv), [als geojson](coworking-muenster-geo.json) Lizenz: [cc0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
 <div id="map"></div>
 
@@ -40,7 +40,7 @@ Stand November 2019, Download: [als csv](muenster-coworking-spaces.csv), [als ge
 function onEachFeature(feature, layer) {
   var popupContent = '<h5 class="popup-headline">'
     + feature.properties.name + "</h5>"
-    + '<p class="popup-address">' + feature.properties.address + ", " + feature.properties.plz + "</p>"
+    + '<p class="popup-address">' + feature.properties.address + ", " + feature.properties.plz + " Münster</p>"
     + '<a href="' + feature.properties.url + '" target="_blank" rel="noopener">' + feature.properties.url + "</a>";
 
   if (feature.properties && feature.properties.popupContent) {
