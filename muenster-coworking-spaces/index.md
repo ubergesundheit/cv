@@ -34,6 +34,6 @@ Stand November 2019, Download: [als csv](coworking-muenster.csv), [als geojson](
 
 <div id="map"></div>
 
-Made by [Gerald Pape]({{ site.url }})
+Made by [Gerald Pape]({{ site.url }}), Alle Angaben ohne Gewähr, für Inhalte der verlinkten Seiten sind die jeweiligen Betreiber verantwortlich.
 
 <script src="coworkingmap.js" defer></script>
