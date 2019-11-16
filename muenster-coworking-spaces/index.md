@@ -8,8 +8,8 @@ body {
 }
 
 #map {
-  margin-top: 1rem;
-  height: 60vh;
+  margin: 1rem 0;
+  height: 60vmin;
 }
 
 .popup-headline {
@@ -34,55 +34,6 @@ Stand November 2019, Download: [als csv](coworking-muenster.csv), [als geojson](
 
 <div id="map"></div>
 
-<script>
-"use strict";
+Made by [Gerald Pape]({{ site.url }})
 
-function onEachFeature(feature, layer) {
-  var popupContent = '<h5 class="popup-headline">'
-    + feature.properties.name + "</h5>"
-    + '<p class="popup-address">' + feature.properties.address + ", " + feature.properties.plz + " Münster</p>"
-    + '<a href="' + feature.properties.url + '" target="_blank" rel="noopener">' + feature.properties.url + "</a>";
-
-  if (feature.properties && feature.properties.popupContent) {
-    popupContent += feature.properties.popupContent;
-  }
-
-  layer.bindPopup(popupContent);
-}
-
-function loadMap() {
-  var map = L.map("map").setView([51.96, 7.61], 11);
-
-  L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidWJlcmdlc3VuZGhlaXQiLCJhIjoiY2szMGV0eWltMGh4ZzNicWowYzdzenRqYiJ9.Q45K2MzwSKBq9n7L8Q_9rw", {
-    maxZoom: 16,
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-      '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-      'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    id: "mapbox.light"
-  }).addTo(map);
-
-  fetch("coworking-muenster-geo.json")
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (json) {
-      var spaces = L.geoJSON(json, {
-        onEachFeature: onEachFeature,
-        pointToLayer: function (feature, latlng) {
-          return L.circleMarker(latlng, {
-            radius: 6,
-            fillColor: "#f1a92b",
-            color: "#5d5d5d",
-            weight: 1,
-            opacity: 1,
-            fillOpacity: 0.8
-          });
-        }
-      }).addTo(map);
-
-      map.fitBounds(spaces.getBounds());
-    });
-}
-
-window.addEventListener("DOMContentLoaded", loadMap);
-</script>
+<script src="coworkingmap.js" defer></script>
