@@ -208,6 +208,22 @@
           51.9522
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Büro im Apollo-Theater",
+        "address": "Königsstraße 32-33",
+        "plz": 48143,
+        "url": "http://www.buero-im-apollo.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6264,
+          51.9573
+        ]
+      }
     }
   ]
 }
