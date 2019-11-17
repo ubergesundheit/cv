@@ -23,6 +23,7 @@ description: The personal web page of Gerald Pape.
 
 ### Other notable projects
 
+- [Coworking Spaces Münster]({{ site.url }}/muenster-coworking-spaces/) - Collection of coworking spaces in Münster on a map and as CSV download
 - <a href="https://github.com/ubergesundheit/Leaflet.EdgeMarker" target="_blank">Leaflet.EdgeMarker</a> - A <a href="https://leafletjs.com/" target="_blank">Leaflet</a> plugin to indicate GeoFeatures outside of the map view. <span class="technology-list">[JavaScript]</span>
 - <a href="https://github.com/lunemec/nanny" target="_blank">Nanny</a> - Monitoring of services based on periodic notifications to a HTTP endpoint. Contributed Slack notifier and other API improvements. <span class="technology-list">[Go]</span>
 - <a href="https://github.com/containrrr/watchtower" target="_blank">Watchtower</a> - Periodically pull container images and restart if required. Contributed Slack notifier. <span class="technology-list">[Go]</span>
