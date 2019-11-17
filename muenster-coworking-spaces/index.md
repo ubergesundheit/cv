@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Coworking Spaces in Münster
+description: Übersicht der Coworking Spaces in Münster
 ---
 
 <style>

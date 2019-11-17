@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Gerald Pape - Personal Site
+description: The personal web page of Gerald Pape.
 ---
 
 <img src="images/gerald_339.jpg" alt="Image of Gerald Pape" id="img_gerald" />
