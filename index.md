@@ -34,7 +34,12 @@ description: The personal web page of Gerald Pape.
 
 ## Work
 <dl>
-  <dt>May 2018 &ndash; Now</dt>
+  <dt>December 2019 &ndash; Now</dt>
+  <dd>Front End Engineer at <a href="https://www.giantswarm.io/" target="_blank">Giant Swarm</a>.
+  <p class="technology-list">Technologies: React, Kubernetes, Containers</p>
+  </dd>
+
+  <dt>May 2018 &ndash; November 2019</dt>
   <dd>Full Stack software engineer at <a href="https://www.foodtracks.de/" target="_blank">FoodTracks</a>. Development and maintenance of customer facing software for order optimization &amp; business data analysis. Maintenance and deployment of infrastructure and CI/CD.
   <p class="technology-list">Technologies: React, Python, Docker, Node.js, Ruby on Rails, Go, Ansible, Terraform, GitLab</p>
   </dd>
