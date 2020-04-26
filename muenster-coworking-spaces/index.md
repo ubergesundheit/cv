@@ -32,7 +32,7 @@ body {
 
 ## Coworking Spaces in Münster
 
-Stand November 2019, Download: [als csv](coworking-muenster.csv), [als geojson](coworking-muenster-geo.json) Lizenz: [cc0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+Stand April 2020, Download: [als csv](coworking-muenster.csv), [als geojson](coworking-muenster-geo.json) Lizenz: [cc0](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
 <div id="map"></div>
 

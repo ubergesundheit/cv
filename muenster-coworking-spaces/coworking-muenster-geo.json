@@ -180,22 +180,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Haus Brink",
-        "address": "Havixbecker Str. 70",
-        "plz": 48161,
-        "url": "https://hausbrink.com/co-working/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.5322,
-          51.9604
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Digital Hub münsterLAND",
         "address": "Hafenweg 16",
         "plz": 48155,
@@ -222,6 +206,22 @@
         "coordinates": [
           7.6264,
           51.9573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Die Grünfärberei",
+        "address": "Dahlweg 120b",
+        "plz": 48153,
+        "url": "https://www.gruenfaerberei.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6292,
+          51.9391
         ]
       }
     }
