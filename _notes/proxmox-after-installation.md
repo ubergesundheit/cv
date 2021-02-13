@@ -1,6 +1,6 @@
 ---
 layout: note
-title: Stuff I do after installing proxmox VE
+title: Stuff I do after installing Proxmox VE
 ---
 
 I just installed [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) 6.3 on an old laptop. I'll try to collect useful things to do here.

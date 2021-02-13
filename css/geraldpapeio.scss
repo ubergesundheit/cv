@@ -338,3 +338,13 @@ em::after {
   display: block;
   font-size: medium;
 }
+
+.remark {
+  h4 {
+    margin: 0;
+  }
+  margin: 1rem;
+  margin-bottom: 3rem;
+  padding: 0.5rem;
+  border: 2px dashed lighten($background-color, 10);
+}
