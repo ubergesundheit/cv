@@ -14,5 +14,5 @@ Updated rarely ;)
 
 {% for note in site.notes %}
 - [{{ note.title }} ({{ note.date | date: "%Y-%m-%d %H:%M" }})]({{ site.url }}{{ note.url }})
-  {{ note.content | markdownify | truncatewords: 20 }}
+  {{ note.excerpt | markdownify }}
 {% endfor %}
