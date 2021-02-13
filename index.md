@@ -12,6 +12,7 @@ description: The personal web page of Gerald Pape.
   <a class="navlink" href="#projects">Projects</a>
   <a class="navlink" href="#work">Work</a>
   <a class="navlink" href="#education">Education</a>
+  <a class="navlink" href="{{ site.url }}/notes/">Notes</a>
 </p>
 
 <p class="introduction">Hi, my name is Gerald and I am a software developer from Münster. On the internet, I usually go by <em>ubergesundheit</em>. For fun and recreation, I like to try out new programming languages and technologies, tinker with programmable gadgets and embedded systems, cook and eat tasty recipies and read or watch science-fiction. In <a href="http://codeformuenster.org/" target="_blank" rel="noopener">Münsters Code for Germany</a> division I voluntarily create civic tech with open data. I'm really interested in technologies and topics like Linux, containers, container orchestration with Kubernetes, decentralization and self-hosting. My secret weakness is owning and trying out mechanical keyboards.
