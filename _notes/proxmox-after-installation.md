@@ -16,3 +16,5 @@ I just installed [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) 6.3 on an o
       HandleLidSwitchDocked=ignore
 
   Then restart logind with `systemctl restart systemd-logind.service`
+- Point a domain to the IP of the host
+- Install an ACME DNS plugin of for Let's encrypt certificate

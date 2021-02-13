@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-<a href="{{ site.url }}notes/">Back to list of notes</a>
+<a href="{{ site.url }}/notes/">Back to list of notes</a>
 
-<h2>{{ page.title }}</h2>
+<h2 class="note-title">{{ page.title }}</h2>
 
-<h5>{{ page.date | date: "%Y-%m-%d %H:%M" }}</h5>
-
-<pre><code>{{ page | inspect }}</code></pre>
+<time class="note-time" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d %H:%M" }}</time>
 
 {{ content }}
 
-<a href="{{ site.url }}notes/">Back to list of notes</a>
+<a href="{{ site.url }}/notes/">Back to list of notes</a>
