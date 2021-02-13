@@ -5,7 +5,7 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-<h5>{{ page.date }}</h5>
+<h5>{{ page.date | date: "%Y-%m-%d %H:%M" }}</h5>
 
 {{ content }}
 
