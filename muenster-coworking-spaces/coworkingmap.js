@@ -24,7 +24,7 @@ function initMap(spaces) {
   var map = L.map("map").setView([51.9601, 7.5939], 12);
   window.lmap = map;
 
-  L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidWJlcmdlc3VuZGhlaXQiLCJhIjoiY2szMGV0eWltMGh4ZzNicWowYzdzenRqYiJ9.Q45K2MzwSKBq9n7L8Q_9rw", {
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png", {
     maxZoom: 16,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
       '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
