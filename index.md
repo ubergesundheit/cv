@@ -35,7 +35,12 @@ description: The personal web page of Gerald Pape.
 
 ## Work
 <dl>
-  <dt>December 2019 &ndash; Now</dt>
+  <dt>October 2020 &ndash; Now</dt>
+  <dd>App Engineer at <a href="https://www.giantswarm.io/" target="_blank" rel="noopener">Giant Swarm</a>.
+  <p class="technology-list">Technologies: Helm, Kustomize, Kubernetes, Containers</p>
+  </dd>
+
+  <dt>December 2019 &ndash; September 2020</dt>
   <dd>Front End Engineer at <a href="https://www.giantswarm.io/" target="_blank" rel="noopener">Giant Swarm</a>.
   <p class="technology-list">Technologies: React, Kubernetes, Containers</p>
   </dd>
