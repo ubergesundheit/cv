@@ -18,3 +18,6 @@ I just installed [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) 6.3 on an o
   Then restart logind with `systemctl restart systemd-logind.service`
 - Point a domain to the IP of the host
 - Install an ACME DNS plugin of for Let's encrypt certificate
+
+
+Some of these items can be done using an ansible playbook I am preparing [here](https://codeberg.org/gerald/proxmox-config) (private at this point).
