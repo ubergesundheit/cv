@@ -12,9 +12,10 @@ description: The personal web page of Gerald Pape.
   <a class="navlink" href="#projects">Projects</a>
   <a class="navlink" href="#work">Work</a>
   <a class="navlink" href="#education">Education</a>
+  <a class="navlink" href="{{ site.url }}/notes/">Notes</a>
 </p>
 
-<p class="introduction">Hi, my name is Gerald and I am a software developer from Münster. On the internet, I usually go by <em>ubergesundheit</em>. For fun and recreation, I like to try out new programming languages and technologies, tinker with programmable gadgets and embedded systems, cook and eat tasty recipies and read or watch science-fiction. In <a href="http://codeformuenster.org/" target="_blank" rel="noopener">Münsters Code for Germany</a> division I voluntarily create civic tech with open data. I'm really interested in technologies and topics like Linux, containers, container orchestration with Kubernetes, decentralization and self-hosting. My secret weakness is owning and trying out mechanical keyboards.
+<p class="introduction">Hi, my name is Gerald and I am a software developer from Münster. On the internet, I usually call myself <em>ubergesundheit</em>. For fun and recreation, I like to try out new programming languages and technologies, tinker with programmable gadgets and embedded systems, cook and eat tasty recipies and read or watch science-fiction. In <a href="http://codeformuenster.org/" target="_blank" rel="noopener">Münsters Code for Germany</a> division I voluntarily create civic tech with open data. I'm really interested in technologies and topics like Linux, containers, container orchestration with Kubernetes, decentralization and self-hosting. My secret weakness is owning and trying out mechanical keyboards.
 <br />You can find me on <a href="https://github.com/ubergesundheit" target="_blank" rel="noopener" class="icon-github">GitHub</a>, <a href="https://twitter.com/ubergesundheit" target="_blank" rel="noopener" class="icon-twitter">Twitter</a> and <a href="https://keybase.io/geraldpape" target="_blank" rel="noopener" class="icon-key">Keybase</a>. You can also write me an <a data-href="oi.epapdlareg@liam:otliam" class="obfusmail icon-envelope" rel="nofollow">email</a>.</p>
 
 ## Projects
@@ -35,7 +36,12 @@ description: The personal web page of Gerald Pape.
 
 ## Work
 <dl>
-  <dt>December 2019 &ndash; Now</dt>
+  <dt>October 2020 &ndash; Now</dt>
+  <dd>App Engineer at <a href="https://www.giantswarm.io/" target="_blank" rel="noopener">Giant Swarm</a>.
+  <p class="technology-list">Technologies: Helm, Kustomize, Kubernetes, Containers</p>
+  </dd>
+
+  <dt>December 2019 &ndash; September 2020</dt>
   <dd>Front End Engineer at <a href="https://www.giantswarm.io/" target="_blank" rel="noopener">Giant Swarm</a>.
   <p class="technology-list">Technologies: React, Kubernetes, Containers</p>
   </dd>

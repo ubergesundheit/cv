@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<a href="{{ site.url }}/notes/">Back to list of notes</a>
+
+<h2 class="note-title">{{ page.title }}</h2>
+
+<time class="note-time" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d %H:%M" }}</time>
+
+<div class="remark">
+  <h4>Please note:</h4>
+  <p>I sometimes add content to existing notes.</p>
+</div>
+
+{{ content }}
+
+<a href="{{ site.url }}/notes/">Back to list of notes</a>
